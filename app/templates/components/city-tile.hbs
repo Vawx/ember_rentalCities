@@ -1,0 +1,8 @@
+{{yield}}
+<li><h3>{{city.name}}</h3>
+  <button {{action 'delete' city}}>Delete</button>
+  <ul>
+    <h4>Attractions</h4>
+    <li>{{city.attractions}}</li>
+  </ul>
+</li>
